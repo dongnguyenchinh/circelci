@@ -20,6 +20,7 @@ executors:
           MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
           MYSQL_ROOT_PASSWORD: 'ubuntu'
           MYSQL_ROOT_HOST: '%'
+          MYSQL_DATABASE: 'circelci_app_development'
 commands:
   configure_bundler:
     description: Configure bundler
